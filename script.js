@@ -5,6 +5,7 @@ function breakCookie(){
   document.getElementById("cookie").src = "fortune-cookie-broken.jpg";
   document.getElementById("b1").style.visibility = "hidden";
   document.getElementById("b2").style.visibility = "visible";
+  document.getElementById("fortune").style.visibility = "visible";
   getFortune();
 }
 
@@ -12,7 +13,8 @@ function newCookie(){
   document.getElementById("cookie").src = "fortune-cookie.jpg";
   document.getElementById("b1").style.visibility = "visible";
   document.getElementById("b2").style.visibility = "hidden";
-  document.getElementById("fortune").innerHTML ="";
+  document.getElementById("fortune").innerHTML =" ";
+  document.getElementById("fortune").style.visibility = "hidden";
 }
 
 function getFortune(){

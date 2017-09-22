@@ -1,24 +1,36 @@
 body {
   text-align:center;
   background-image: url("chinese-new-year.jpg");
+  font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+  margin-top: 60px;
+  color:lightblue;
+  font-size:-webkit-xxx-large;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1{
-  color:lightblue;
+  color:black;
   font-weight:bold;
-  font-family:Arial, Helvetica, sans-serif;
 }
 
 #fortune{
-  color:lightblue;
+  color:black;
   font-weight:bold;
-  font-family:Arial, Helvetica, sans-serif;
+  font-size:large;
+  background:white;
+  padding:30px;
+  margin-top:10px;
+  margin-left:25%;
+  margin-right:25%;
+  visibility: hidden;
 }
 
-img{
-  border-radius:8px;
-  width: 50%;
-  height: 75%; 
+.btn-danger {
+  padding: 10px;
+  margin: 10px;
 }
 
 #b1{
@@ -29,4 +41,18 @@ img{
   visibility: hidden;
 }
 
+#cookie{
+  border-radius:8px;
+  width: 25%;
+  height: 25%; 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: lightblue;
+}
 

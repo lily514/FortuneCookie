@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--BOOTSTRAP-->
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <!--BOOTSTRAP-->
+	  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
   <script src="script.js"></script>
   <title>Fortune Cookie</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <h1>Click to reveal your fortune</h1>
-  <button id="b1" onclick="breakCookie()"> Fortune Please </button>
-  <button id="b2" onclick="newCookie()"> New Cookie </button>
+  <h1 id="title">Click to reveal your fortune</h1>
+  <button id="b1" class="btn-danger btn-lg" onclick="breakCookie()"> Fortune Please </button>
+  <button id="b2" class="btn-danger btn-lg" onclick="newCookie()"> New Cookie </button>
   <p></p>
-  <img id="cookie" src="fortune-cookie.jpg" alt="Whole Fortune Cookie">
+  <img id="cookie" class="img-thumbnail" src="fortune-cookie.jpg" alt="Whole Fortune Cookie">
+  <div id = "fortune">  </div>
   <p></p>
-  <div id = "fortune"> </div>
+
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Created by Lily Carlson and Kaylee Jones.</span>
+      </div>
+    </footer>
 </body>
 </html>
